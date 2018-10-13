@@ -1,4 +1,4 @@
 import datetime
-now = datetime.datetime.now()
-print ("Current date and time : ")
-print (now.strftime("%Y-%m-%d %H:%M:%S"))
+now = datetime.datetime.now() # read curent date time into var now
+print ("Current date and time : ") # Print message
+print (now.strftime("%Y-%m-%d %H:%M:%S")) # print var now with specified format
